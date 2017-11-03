@@ -1,0 +1,7 @@
+platform-version: '1.0'
+pages:
+  - ticket
+whitelisted-domains:
+- https://api.monkeylearn.com
+- https://hooks.zapier.com
+ 

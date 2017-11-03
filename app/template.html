@@ -1,0 +1,29 @@
+ <script async defer src="https://apis.google.com/js/api.js"
+      onload="this.onload=function(){};handleClientLoad()"
+      onreadystatechange="if (this.readyState === 'complete') this.onload()">
+    </script>
+<div class="widget" id="dispatch_app">
+	<h3>Ticket Classifier</h3>
+	<div class="content">
+		<div  class="text-center" id="classify_info"></div>
+		<br>
+		<div class="text-center" id="classify_button_div">
+			<button type="button" class="btn btn-success" id="classify_classify">Classify</button>
+		</div>
+		<div class="text-center classify_option_div">
+			<b>Select the right type:</b>
+			<Select id="classify_options">
+				<option value="none">..</option>
+				<option value="Web">Web</option>
+				<option value="Design">Design</option>
+				<option value="Automation">Automation</option>
+				<option value="Security">Security</option>
+				<option value="Unclear">Multiple or Unclear</option>
+            </Select>
+		</div>
+		<div class="text-center classify_option_div">
+			<button type="button" class="btn btn-success" id="classify_correct_type">Submit</button>
+		</div>
+	</div>
+</div>
+
